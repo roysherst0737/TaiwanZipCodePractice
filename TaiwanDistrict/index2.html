@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>台灣行政區郵遞區號</title>
+</head>
+
+<body>
+    <label for="city-select">縣市：</label>
+    <select id="city-select">
+        <option value="-1" selected disabled>--- 請先選擇縣市 ---</option>
+    </select>
+    <br>
+    <label for="district-select">行政區：</label>
+    <select id="district-select">
+        <option value="-1" selected disabled>--- 行政區 ---</option>
+    </select>
+    <br>
+    <label for="zip-code-input">郵遞區號：</label>
+    <input type="text" id="zip-code-input" 
+            placeholder="點選上表或直接輸入" onfocus="this.placeholder=''" onblur="this.placeholder='點選上表或直接輸入'"
+            style="width:120px">
+    <br>
+    <button id="input" >Input</button>
+
+    <script src="./district2.js"></script>
+
+</body>
+
+</html>
